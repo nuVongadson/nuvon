@@ -9,7 +9,7 @@ body {
 header {
     background-color: #000000;
     color: rgb(255, 255, 255);
-    padding: 15px 30px;
+    padding: 10px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,16 +97,16 @@ nav ul li a:hover {
 
 
 
-
 .hero-section {
-    background-image: url('images/wallp.jpg');
+    background-image: url('hero-image.jpg');
     background-size: cover;
-   background-position: right;
+    background-position: center;
     color: white;
     text-align: center;
-    padding: 150px 30px;
+    padding: 120px 20px;
     position: relative;
 }
+
 
 .hero-section::before {
     content: '';
@@ -115,7 +115,8 @@ nav ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(5, 5, 5, 0.591) ;
+    background: rgba(0, 0, 0, 0.5);
+
 }
 
 .hero-section h2 {
@@ -153,7 +154,7 @@ nav ul li a:hover {
 .collection-section {
     padding: 60px 20px;
     text-align: center;
-    background-color: #595959dc;
+    background-color: #444444f0;
 }
 
 .collection-section h2 {

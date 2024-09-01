@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #474646;
+    background-color: #000000;
     color: white;
     padding: 15px 30px;
     display: flex;
@@ -25,7 +25,7 @@ header .logo h1 {
     color: #e91e63;
 }
 
-.cart{
+.cart {
     display: flex;
     background-color: #e90061;
     justify-content: space-between;
@@ -35,15 +35,15 @@ header .logo h1 {
     width: 80px;
 }
 
-.cart p{
-     height: 22px;
-     width: 52px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     border-radius:22px;
-     background-color: #008ce9;
-     color: rgb(0, 0, 0);
+.cart p {
+    height: 22px;
+    width: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: #008ce9;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -71,20 +71,22 @@ nav ul li a:hover {
     color: #e91e63;
 }
 
-.container{
-      display: flex;
-      width: 70px;
-      margin-bottom: 30px;
+.container {
+    display: flex;
+    width: 70px;
+    margin-bottom: 30px;
+    
 }
 
 
-#root{
-   width: 60px;
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   grid: gap 20px;
+#root {
+    width: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid: gap 20px;
 }
-.sidebar{
+
+.sidebar {
     width: 40px;
     border-radius: 5px;
     background-color: #fff;
@@ -97,12 +99,12 @@ nav ul li a:hover {
 
 
 .hero-section {
-    background-image: url('hero-image.jpg');
+    background-image: url('images/wallp.jpg');
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
-    padding: 120px 20px;
+    padding: 150px 20px;
     position: relative;
 }
 
@@ -113,7 +115,7 @@ nav ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(5, 5, 5, 0.591) ;
 }
 
 .hero-section h2 {
@@ -195,7 +197,7 @@ nav ul li a:hover {
 
 
 
-button{
+button {
     text-align: center;
     font-size: 24px;
     color: #ffffff;
@@ -208,58 +210,63 @@ button{
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-.Buy-1{
+
+.Buy-1 {
     background-color: #e90061;
 }
-.Buy-2{
+
+.Buy-2 {
     background-color: #00fff2;
 }
-.Buy-3{
+
+.Buy-3 {
     background-color: blueviolet;
 }
 
-.Buy-4{
+.Buy-4 {
     background-color: rgb(255, 120, 1);
 }
 
-.Buy-4{
+.Buy-4 {
     background-color: rgb(131, 209, 21);
 }
 
-.Buy-5{
+.Buy-5 {
     background-color: rgb(226, 208, 43);
 }
 
-.Buy-6{
+.Buy-6 {
     background-color: rgb(246, 0, 246);
 }
 
-.Buy-7{
+.Buy-7 {
     background-color: rgb(255, 238, 0);
 }
 
-.Buy-8{
+.Buy-8 {
     background-color: rgb(226, 43, 43);
 }
 
 
-.Buy-9{
+.Buy-9 {
     background-color: rgb(43, 83, 226);
 }
 
-.Buy-10{
+.Buy-10 {
     background-color: rgb(4, 75, 23);
 }
 
 
 
 
-.about-section, .contact-section {
+.about-section,
+.contact-section {
     padding: 60px 20px;
     text-align: center;
 }
 
-.about-section h2, .contact-section h2 {
+.about-section h2,
+.contact-section h2 {
     margin-bottom: 20px;
     font-size: 32px;
 }
@@ -276,7 +283,8 @@ button{
     align-items: center;
 }
 
-.contact-section form input, .contact-section form textarea {
+.contact-section form input,
+.contact-section form textarea {
     width: 80%;
     padding: 15px;
     margin-bottom: 15px;
@@ -299,7 +307,7 @@ button{
 }
 
 footer {
-    background-color:  #e90061;
+    background-color: #e90061;
     color: white;
     text-align: center;
     padding: 20px 0;

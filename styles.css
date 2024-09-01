@@ -97,8 +97,10 @@ nav ul li a:hover {
     text-align: center;
 }
 
-
-
+.h2{
+ width: 200;
+    
+}
 .hero-section {
     background-image: url('images/wallp.jpg');
     width: 1500px;
@@ -279,6 +281,7 @@ button {
 .contact-section h2 {
     margin-bottom: 20px;
     font-size: 32px;
+    
 }
 
 .about-section p {

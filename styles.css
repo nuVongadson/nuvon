@@ -8,7 +8,7 @@ body {
 
 header {
     background-color: #000000;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
@@ -101,10 +101,10 @@ nav ul li a:hover {
 .hero-section {
     background-image: url('images/wallp.jpg');
     background-size: cover;
-    background-position: center;
+   background-position: right;
     color: white;
     text-align: center;
-    padding: 150px 20px;
+    padding: 150px 30px;
     position: relative;
 }
 

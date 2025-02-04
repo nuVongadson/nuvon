@@ -1,0 +1,116 @@
+body {
+    background-color: #ff85a7; /* Light gray background */
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url("background.jpg"); /* Add background image */
+    background-size: cover;
+}
+
+.container {
+    background-image: url("images/WhatsApp\ Image\ 2025-02-04\ at\ 01.06.38_93f6e5aa.jpg");
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px; /* Set a maximum width for responsiveness */
+}
+
+.heart {
+    width: 100px;
+    height: 100px;
+    background-color: #e53935; /* Red heart */
+    margin: 0 auto 20px;
+    transform: rotate(-45deg);
+    position: relative;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #e53935;
+    border-radius: 50%;
+    top: -50px;
+    left: 0;
+}
+
+.heart::after {
+    left: 50px;
+}
+
+h1 {
+    color: #ff3e8e;
+    font-family: 'Pacifico', cursive; /* Cursive font for heading */
+    margin-bottom: 20px;
+}
+
+p {
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#yesButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#yesButton:hover {
+    background-color: #45a049;
+}
+
+#noButton {
+    background-color: #f44336; /* Red */
+    color: white;
+    position: relative; /* For positioning the button */
+
+}
+
+#noButton:hover {
+    background-color: #da190b;
+}
+
+.celebrate {
+    background-color: rgba(255, 215, 0, 0.8); /* Gold background for celebration */
+}
+
+.celebrate h2 {
+    color: #fff;
+    font-size: 2em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

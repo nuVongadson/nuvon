@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day, My Love!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+</head>
+    <body background-image="images/WhatsApp Image 2025-02-04 at 00.14.53_f476bb49.jpg">
+        <body>
+    <div class="container">
+        <div class="heart"></div>
+        <h1>Will you be my Valentine?</h1>
+        <h3>
+        <p>"Hey Cherry,
+            <b>
+            As Valentine's Day approaches, I couldn't help but think of the one person who makes my heart skip a beat -
+            you! Even though we couldnt met before the Dday itself, you've already become such a big part of my life, and I couldn't
+            imagine celebrating this day of love without you by my side.
+
+            From the moment we started talking, I knew there was something special about you. Your kindness, your smile,your voice
+            and your beautiful heart all captured me in a way that I never thought possible. Every conversation we have,
+            every laugh we share, and every moment we spend together makes me fall more and more in love with you.
+
+            That's why I wanted to ask you the most important question of the year: will you be my Valentine? I know it
+            might seem a little old-fashioned, but I want to make this Valentine's Day one to remember, and I couldn't
+            do it without you. I actually had alot planned to ask you to be my Valentine,thats one reason i always wanted to meet you
+            for about a week now but i guess it couldnt happen... I just thought this would be cool you know... coding all this lol
+             im sorry i had to do it this way... i know you are not a vals day person and that,but dw you cant say you are not
+             when you with me lol sorry ones again, i give more than any material gift, I want to give you my heart, my love, my loyalty,
+             my trust,my respect and my commitment to making our relationship special.</p>
+            <p>Always remember and never forget i love you forever baby❤🥺🤞
+            You deserve all the love in the world, and I'm so grateful to be the one who gets to give it to you. So,
+            will you be my Valentine, mama??</b>
+        </p></h3>
+         
+        <section><center>
+            <div style="background-color: #ff0368dc ;width: 100%;">
+        <p>This Valentine's Day, my only wish is to spend it with you. Will you make my wish come true and be my
+            Valentine?</p>
+            </center>
+        </section>
+        <p>
+            Forever yours,
+        </p>
+        <p>
+            nuvongadson💕
+        </p>
+        <div class="buttons">
+            <button id="yesButton">Yes!</button>
+            <button id="noButton">No</button>
+        </div>
+    </div>
+
+    <script>
+        const yesButton = document.getElementById('yesButton');
+        const noButton = document.getElementById('noButton');
+        const container = document.querySelector('.container');
+
+        yesButton.addEventListener('click', () => {
+            container.innerHTML = "<h2>I knew you would say yes! I love you so much CHERRYYYY ❤</h2><p> Can't wait to celebrate with you!</p>";
+            container.classList.add('celebrate');
+        });
+
+        noButton.addEventListener('mouseover', () => {
+            const noButtonRect = noButton.getBoundingClientRect();
+            const maxX = window.innerWidth - noButtonRect.width;
+            const maxY = window.innerHeight - noButtonRect.height;
+
+            const randomX = Math.random() * maxX;
+            const randomY = Math.random() * maxY;
+
+            noButton.style.position = 'absolute';
+            noButton.style.left = randomX + 'px';
+            noButton.style.top = randomY + 'px';
+        });
+
+        noButton.addEventListener('click', () => {
+            container.innerHTML = "<h2>Please say Yes! 🥺</h2><p> I promise it will be the best Valentine's Day ever!</p>";
+        });
+    </script>
+    
+</body>
+
+</html>
